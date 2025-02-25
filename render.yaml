@@ -25,6 +25,6 @@ services:
         value: true
 databases:
   - name: prod-db-athena
-    postgresMajorVersion: 16
+    postgresMajorVersion: 15
     diskSizeGB: 10
     region: oregon
